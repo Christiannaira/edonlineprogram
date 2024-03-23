@@ -5,3 +5,51 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+
+/*navigational section design*/
+
+.navigational--section {
+    padding: 30px 120px;
+}
+
+.navigational--section__container-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 400;
+}
+
+.navigational--section__container-contact {
+    cursor: pointer;
+}
+
+.contact--phone-icon {
+    background-color: #735FF2;
+}
+
+.contact--phone-icon i {
+    color: #fff;
+}
+
+.contact--number {
+    font-size: 16px;
+    color: #735FF2;
+    font-weight: 600;
+}
+
+/* Responsivenss*/
+
+
+/*  extra large devices */
+@media (min-width: 1200px) {}
+
+/* large devices */
+@media (min-width: 992px) {}
+
+
+/* medium devices */
+@media (min-width: 768px) {}
+
+/* small devices */
+@media (min-width: 576px) {}
